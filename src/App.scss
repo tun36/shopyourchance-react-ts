@@ -1,0 +1,70 @@
+.ant-layout{
+  background-color: #fff;
+  .ant-layout-content{
+    padding-top: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    //margin: auto;
+  }
+}
+.bg-layout{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left bottom;
+  height: 100vh;
+}
+.footer-page{
+  background: none;
+  background-size: 300px;
+  text-align: center;
+  color: #fff;
+}
+a{
+  color: #333;
+  &:hover{
+    color: #ff0000;
+  }
+}
+.ant-tabs-nav{
+  margin-bottom: 0 !important;
+}
+.ant-modal-content{
+  text-align: center;
+}
+.ant-modal-confirm{
+  .ant-modal-confirm-body{
+    display: block;
+  }
+  .ant-modal-confirm-btns{
+    text-align: center;
+  }
+  .ant-modal-confirm-body{
+    font-size: 40px;
+  }
+  .ant-modal-confirm-content{
+    margin: 0 !important;
+    margin-right: 0 !important;
+  }
+  .ant-modal-confirm-title{
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ant-layout-content {
+    padding: 0 10px;
+  }
+  ._none-mobile{
+    display: none;
+  }
+}
+.tab-item{
+  .ant-tabs-content{
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    border-top: 0;
+    max-height: 70vh;
+    overflow-y: scroll;
+  }
+}
